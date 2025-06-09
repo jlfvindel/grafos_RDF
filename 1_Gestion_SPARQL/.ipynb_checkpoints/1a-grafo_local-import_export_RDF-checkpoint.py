@@ -1,4 +1,8 @@
 # %% [markdown]
+# [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+# (https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/01_introduccion.ipynb)
+
+# %% [markdown]
 # # Grafos: importación/exportación RDF
 #
 # ## Resumen del cuaderno
@@ -156,28 +160,6 @@ print(f"El grafo g2, tras su ampliación, tiene un total de {len(g2)} tripletas.
 print("Grafo, ampliado, en formato Turtle:")
 print(g2.serialize(format='turtle'))
 
-# %%
-from rdflib.tools.rdf2dot import rdf2dot
-import graphviz
 
-# Genera un objeto graphviz.Source
-dot_str = rdf2dot(g)              # cadena DOT
-graph = graphviz.Source(dot_str)  
-graph.render("rdf_grafo", format="png")  # guarda o muestra en notebook
-graph                                                   
-
-
-# %%
-from pyvis.network import Network
-# Convierte a pyvis.Network()
-net = Network(height="600px", width="100%", notebook=True)
-for s, p, o in g2:
-    net.add_node(str(s), label=str(s))
-    net.add_node(str(o), label=str(o))
-    net.add_edge(str(s), str(o), title=str(p))
-
-# 3. Muestra el widget interactivo
-net.show("grafo_pyvis.html")
-net
 
 
