@@ -1,0 +1,19 @@
+@prefix ej: <http://uned.es/ejs/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ej:Comunidad a rdfs:Class .
+
+ej:Provincia a rdfs:Class .
+
+ej:Extremadura a ej:Comunidad ;
+    ej:tiene_provincia ej:Badajoz_prov,
+        ej:Caceres_prov .
+
+ej:Badajoz_prov a ej:Provincia ;
+    ej:tiene_municipio ej:Badajoz_munic,
+        ej:Merida .
+
+ej:Caceres_prov a ej:Provincia ;
+    ej:tiene_municipio ej:Caceres_munic,
+        ej:Plasencia .
+

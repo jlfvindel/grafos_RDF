@@ -1,0 +1,56 @@
+[
+  {
+    "@id": "http://uned.es/ejs/Extremadura",
+    "@type": [
+      "http://uned.es/ejs/Comunidad"
+    ],
+    "http://uned.es/ejs/tiene_provincia": [
+      {
+        "@id": "http://uned.es/ejs/Caceres_prov"
+      },
+      {
+        "@id": "http://uned.es/ejs/Badajoz_prov"
+      }
+    ]
+  },
+  {
+    "@id": "http://uned.es/ejs/Comunidad",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://uned.es/ejs/Badajoz_prov",
+    "@type": [
+      "http://uned.es/ejs/Provincia"
+    ],
+    "http://uned.es/ejs/tiene_municipio": [
+      {
+        "@id": "http://uned.es/ejs/Badajoz_munic"
+      },
+      {
+        "@id": "http://uned.es/ejs/Merida"
+      }
+    ]
+  },
+  {
+    "@id": "http://uned.es/ejs/Caceres_prov",
+    "@type": [
+      "http://uned.es/ejs/Provincia"
+    ],
+    "http://uned.es/ejs/tiene_municipio": [
+      {
+        "@id": "http://uned.es/ejs/Caceres_munic"
+      },
+      {
+        "@id": "http://uned.es/ejs/Plasencia"
+      }
+    ]
+  },
+  {
+    "@id": "http://uned.es/ejs/Provincia",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  }
+]

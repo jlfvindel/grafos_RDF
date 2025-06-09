@@ -1,0 +1,67 @@
+digraph { 
+ node [ fontname="DejaVu Sans" ] ; 
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node2 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node4 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_provincia</font> > ] ;
+	node0 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_provincia</font> > ] ;
+	node1 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node8 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node5 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node6 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node0 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_provincia</font> > ] ;
+	node4 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_provincia</font> > ] ;
+	node4 -> node12 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_provincia</font> > ] ;
+	node2 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node8 -> node14 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node6 -> node15 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node6 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node12 -> node16 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node9 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node2 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node12 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node5 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node5 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node12 -> node18 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+	node8 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>ej:tiene_municipio</font> > ] ;
+# http://uned.es/ejs/Extremadura node0
+node0 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Extremadura</B></td></tr><tr><td href='http://uned.es/ejs/Extremadura' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Extremadura</font></td></tr></table> > ] 
+# http://uned.es/ejs/Comunidad node1
+node1 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Comunidad</B></td></tr><tr><td href='http://uned.es/ejs/Comunidad' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Comunidad</font></td></tr></table> > ] 
+# http://uned.es/ejs/Badajoz_prov node2
+node2 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Badajoz_prov</B></td></tr><tr><td href='http://uned.es/ejs/Badajoz_prov' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Badajoz_prov</font></td></tr></table> > ] 
+# http://uned.es/ejs/Badajoz_munic node3
+node3 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Badajoz_munic</B></td></tr><tr><td href='http://uned.es/ejs/Badajoz_munic' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Badajoz_munic</font></td></tr></table> > ] 
+# http://uned.es/ejs/Comunidad_Valenciana node4
+node4 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Comunidad_Valenciana</B></td></tr><tr><td href='http://uned.es/ejs/Comunidad_Valenciana' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Comunidad_Valenciana</font></td></tr></table> > ] 
+# http://uned.es/ejs/Alicante_prov node5
+node5 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Alicante_prov</B></td></tr><tr><td href='http://uned.es/ejs/Alicante_prov' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Alicante_prov</font></td></tr></table> > ] 
+# http://uned.es/ejs/Caceres_prov node6
+node6 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Caceres_prov</B></td></tr><tr><td href='http://uned.es/ejs/Caceres_prov' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Caceres_prov</font></td></tr></table> > ] 
+# http://www.w3.org/2000/01/rdf-schema#Class node7
+node7 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Class</B></td></tr><tr><td href='http://www.w3.org/2000/01/rdf-schema#Class' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2000/01/rdf-schema#Class</font></td></tr></table> > ] 
+# http://uned.es/ejs/Valencia_prov node8
+node8 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Valencia_prov</B></td></tr><tr><td href='http://uned.es/ejs/Valencia_prov' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Valencia_prov</font></td></tr></table> > ] 
+# http://uned.es/ejs/Provincia node9
+node9 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Provincia</B></td></tr><tr><td href='http://uned.es/ejs/Provincia' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Provincia</font></td></tr></table> > ] 
+# http://uned.es/ejs/Alicante_munic node10
+node10 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Alicante_munic</B></td></tr><tr><td href='http://uned.es/ejs/Alicante_munic' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Alicante_munic</font></td></tr></table> > ] 
+# http://uned.es/ejs/Caceres_munic node11
+node11 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Caceres_munic</B></td></tr><tr><td href='http://uned.es/ejs/Caceres_munic' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Caceres_munic</font></td></tr></table> > ] 
+# http://uned.es/ejs/Castellon_prov node12
+node12 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Castellon_prov</B></td></tr><tr><td href='http://uned.es/ejs/Castellon_prov' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Castellon_prov</font></td></tr></table> > ] 
+# http://uned.es/ejs/Merida node13
+node13 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Merida</B></td></tr><tr><td href='http://uned.es/ejs/Merida' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Merida</font></td></tr></table> > ] 
+# http://uned.es/ejs/Gandia node14
+node14 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Gandia</B></td></tr><tr><td href='http://uned.es/ejs/Gandia' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Gandia</font></td></tr></table> > ] 
+# http://uned.es/ejs/Plasencia node15
+node15 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Plasencia</B></td></tr><tr><td href='http://uned.es/ejs/Plasencia' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Plasencia</font></td></tr></table> > ] 
+# http://uned.es/ejs/Castellon_de_la_Plana node16
+node16 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Castellon_de_la_Plana</B></td></tr><tr><td href='http://uned.es/ejs/Castellon_de_la_Plana' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Castellon_de_la_Plana</font></td></tr></table> > ] 
+# http://uned.es/ejs/Elche node17
+node17 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Elche</B></td></tr><tr><td href='http://uned.es/ejs/Elche' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Elche</font></td></tr></table> > ] 
+# http://uned.es/ejs/Villareal node18
+node18 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Villareal</B></td></tr><tr><td href='http://uned.es/ejs/Villareal' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Villareal</font></td></tr></table> > ] 
+# http://uned.es/ejs/Valencia_munic node19
+node19 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Valencia_munic</B></td></tr><tr><td href='http://uned.es/ejs/Valencia_munic' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://uned.es/ejs/Valencia_munic</font></td></tr></table> > ] 
+}

@@ -1,0 +1,8 @@
+
+PREFIX ej: <http://uned.es/ejs/>
+
+SELECT ?munic ?comunid
+WHERE {
+  ?comunid ej:tiene_provincia ?prov .
+  ?prov ej:tiene_municipio ?munic .
+}
