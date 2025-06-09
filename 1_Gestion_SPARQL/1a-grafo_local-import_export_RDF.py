@@ -1,6 +1,6 @@
 # %% [markdown]
 # [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-# (https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/01_introduccion.ipynb)
+# (https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1a-grafo_local-import_export_RDF.ipynb)
 
 # %% [markdown]
 # # Grafos: importación/exportación RDF
