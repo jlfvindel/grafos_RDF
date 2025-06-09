@@ -1,18 +1,24 @@
 # %% [markdown]
+# [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1b-grafo_local-visualizacion.ipynb)
+
+# %% [markdown]
 # # Grafos: visualización
 #
 # ## Resumen del cuaderno 
 # 1. **El lenguaje DOT** es un lenguaje genérico para declarar grafos (no sólo RDF) como se puede apreciar en su [Guía de usuario](https://www.graphviz.org/pdf/dotguide.pdf)
 # 2. **La aplicación Graphviz** es una aplicación de línea de comando que calcula la posición adecuada de los nodos de un grafo dot para visualizarlo o para exportarla a un fichero (en diversos formatos gráficos).
 # 3. **rdf2dot** es un funcion Python que genera una descripción en lenguaje DOT de un grafo rdflib en memoria. El grafo dot generado se puede visualizar o exportar a un fichero, escogiendo el formato gráfico.
-
-La visualización de grafos RDF permite seguir mejor la presentación ejemplos de procesamiento de estos grafos (para grafos RDF pequeños). Graphviz tan sólo facilita una visualización estática pero con un adecuado posicionamiento automático de nodos. Para grafos muy grandes convendrá utilizar aplicaciones interactivas que permiten navegar por el grafo: ocultar selectivamente nodos y enlaces, así como irlos mostrando puntualmente bajo demanda.
+#
+# La visualización de grafos RDF permite seguir mejor la presentación ejemplos de procesamiento de estos grafos (para grafos RDF pequeños). Graphviz tan sólo facilita una visualización estática pero con un adecuado posicionamiento automático de nodos. Para grafos muy grandes convendrá utilizar aplicaciones interactivas que permiten navegar por el grafo: ocultar selectivamente nodos y enlaces, así como irlos mostrando puntualmente bajo demanda.
 
 
 # %% [markdown]
 # ## 1. Un primer grafo para visualizar
 
-# %%    
+# %%
+!pip install rdflib
+
+# %%
 import rdflib
 g = rdflib.Graph()
 
@@ -53,7 +59,7 @@ import graphviz
 # %% [markdown]
 # La función rdf2dot escribe las tripletas del grafo en el string en lenguaje dot (con ciertas opciones por defecto sobre el estilo de presentación)
 
-# %%                                                 
+# %%
 sio1 = StringIO()
 rdf2dot(g, sio1)
 dot_source1 = sio1.getvalue()
@@ -99,7 +105,7 @@ ej:Badajoz_prov ej:tiene_municipio ej:Badajoz_munic , ej:Merida ;
 # %%
 g.parse(data=txt2_turtle, format="turtle")
 
-# %%                                                 
+# %%
 sio2 = StringIO()
 rdf2dot(g, sio2)
 dot_source2 = sio2.getvalue()
@@ -146,6 +152,6 @@ print("Fichero .dot guardado")
 # `dot -Tsvg grafo.dot -o grafo.svg`
 #
 # `dot -Tpng grafo.dot -o grafo.png`
-
-
+#
+#
 

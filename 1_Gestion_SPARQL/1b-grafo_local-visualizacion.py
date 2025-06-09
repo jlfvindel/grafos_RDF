@@ -1,4 +1,7 @@
 # %% [markdown]
+# [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1b-grafo_local-visualizacion.ipynb)
+
+# %% [markdown]
 # # Grafos: visualización
 #
 # ## Resumen del cuaderno 
@@ -11,6 +14,9 @@
 
 # %% [markdown]
 # ## 1. Un primer grafo para visualizar
+
+# %%
+!pip install rdflib
 
 # %%
 import rdflib

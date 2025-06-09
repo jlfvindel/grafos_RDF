@@ -1,4 +1,7 @@
 # %% [markdown]
+# [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1d-grafo_local-consulta_construct.ipynb)
+
+# %% [markdown]
 # # Consultas SPARQL CONSTRUCT a un grafo local
 
 
@@ -9,6 +12,9 @@
 
 # %% [markdown]
 # ## 1 Grafo consultado
+
+# %%
+!pip install rdflib
 
 # %%
 import rdflib

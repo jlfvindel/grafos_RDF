@@ -1,4 +1,7 @@
 # %% [markdown]
+# [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1e-grafo_local-administracion.ipynb)
+
+# %% [markdown]
 # # Gestión mediante SPARQL: borrado e inserción
 
 
@@ -11,6 +14,9 @@ En el documento [SPARQL QUERY](https://www.w3.org/TR/sparql11-update/) se detall
 
 # %% [markdown]
 # ## 1 Grafo original
+
+# %%
+!pip install rdflib
 
 # %%
 import rdflib
