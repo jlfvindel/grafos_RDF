@@ -15,6 +15,7 @@
 # %%
 !pip install rdflib
 
+# %% [markdown]
 # Se crea un grafo vacío de tripletas. Esta instancia servirá como contenedor de un conjunto de 3-tuplas RDF: {(s1,p1,o1), (s2,p2,o2), ..., (sN,pN,oN)}. 
 
 # %%
