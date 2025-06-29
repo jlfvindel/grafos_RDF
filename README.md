@@ -12,4 +12,4 @@ Creación de grafos rdflib en memoria y gestión de estos grafos tan sólo media
 
 + [1d](https://github.com/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1d-grafo_local-consulta_construct.ipynb):  **consultas CONSTRUCT** al grafo que devuelven ternas (otros grafos RDF)
 
-+ [1e](https://github.com/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1e-grafo_local-administracion.ipynb):  **inserción y borrado** de ternas en el grafo mediante consultas UPDATE
++ [1e](https://github.com/jlfvindel/grafos_RDF/blob/main/1_Gestion_SPARQL/1e-grafo_local-administracion.ipynb):  **inserción y borrado** de ternas en el grafo mediante operaciones UPDATE
